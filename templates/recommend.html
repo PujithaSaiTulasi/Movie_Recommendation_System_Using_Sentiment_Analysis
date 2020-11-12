@@ -5,6 +5,8 @@
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <!--Website logo-->
+  <link rel="icon" href="../static/movie.png" type="image/png">
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
@@ -31,10 +33,10 @@
 <div id="mycontent">
     <div id="mcontent">
       <div class="poster-lg">
-        <img class="poster" style="border-radius: 40px;margin-left: 90px;" height="400" width="250" src={{poster}}>
+        <img class="poster" style="border-radius: 10px;margin-left: 90px;" height="400" width="350" src={{poster}}>
       </div>
       <div class="poster-sm text-center">
-        <img class="poster" style="border-radius: 40px;margin-bottom: 5%;" height="400" width="250" src={{poster}}>
+        <img class="poster" style="border-radius: 10px;margin-bottom: 5%;" height="300" width="220" src={{poster}}>
       </div>
       <div id="details">
         <br/>
@@ -90,7 +92,7 @@
 
       <div class="movie-content">
             {% for name, details in casts.items() if not casts.hidden %}
-              <div class="castcard card" style="width: 15rem;" title="Click to know more about {{name}}" data-toggle="modal" data-target="#{{details[0]}}">
+              <div class="castcard card" style="width: 15rem; title="Click to know more about {{name}}" data-toggle="modal" data-target="#{{details[0]}}">
                 <div class="imghvr">
                   <img class="card-img-top cast-img" id="{{details[0]}}" height="300" width="250" alt="{{name}} - profile" src="{{details[2]}}">
                   <figcaption class="fig">
@@ -150,8 +152,8 @@
 
     {% if movie_cards|length > 1 %}
 
-      <div class="movie" style="color: #E8E8E8;margin-top:10%">
-        <center><h3>RECOMMENDED MOVIES FOR YOU</h3><h5>(Click any of the movies to get recommendation)</h5></center>
+      <div class="movie" style="color: #E8E8E8;margin-top:10%;margin-bottom:10%">
+        <center><h2>RECOMMENDED MOVIES FOR YOU</h2><h5>(Click any of the movies to get recommendation)</h5></center>
       </div>
 
       <div class="movie-content">

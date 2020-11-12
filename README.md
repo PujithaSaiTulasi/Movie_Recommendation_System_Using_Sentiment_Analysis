@@ -1,6 +1,6 @@
 
 
-![Python](./static/intro.jpg)&nbsp;
+<img src="./static/intro.jpg" height=250 width=1500 >
 
 
 

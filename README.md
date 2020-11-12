@@ -4,7 +4,7 @@
 
 
 
-# 🛠 &nbsp;Tech Stack
+## 🛠 &nbsp;Tech Stack
 
 ![Python](https://img.shields.io/badge/-Python-ffff00?style=flat&logo=python&labelColor=f2f2f2)<br>
 ![Flask](https://img.shields.io/badge/-Flask-b3ffe6?style=flat&logo=flask&labelColor=gray)<br>

@@ -15,7 +15,7 @@ new autoComplete({
         position: "afterend",
         element: "ul"
     },
-    maxResults: 5,                         // Max. number of rendered results | (Optional)
+    maxResults: 4,                         // Max. number of rendered results | (Optional)
     highlight: true,                       // Highlight matching results      | (Optional)
     resultItem: {                          // Rendered result item            | (Optional)
         content: (data, source) => {

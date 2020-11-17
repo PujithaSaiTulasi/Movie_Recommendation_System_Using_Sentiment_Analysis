@@ -62,6 +62,12 @@
 
 ### Screenshots
 ![Home page](./static/screenshorts/home.PNG)
+![Home page](./static/screenshorts/recommendation1.PNG)
+![Home page](./static/screenshorts/recommendation2.PNG)
+![Home page](./static/screenshorts/recommendation3.PNG)
+![Home page](./static/screenshorts/recommendation4.PNG)
+![Home page](./static/screenshorts/recommendation5.PNG)
+![Home page](./static/screenshorts/recommendation6.PNG)
 
 
 
